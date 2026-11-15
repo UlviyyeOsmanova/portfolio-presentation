@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ulviyye40.github.io/portfolio-presentation/sitemap.xml
+Sitemap: https://ulviyyeosmanova.github.io/portfolio-presentation/sitemap.xml
