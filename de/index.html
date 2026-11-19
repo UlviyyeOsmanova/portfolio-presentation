@@ -663,6 +663,51 @@ body.home .logo svg {
 <link rel="canonical" href="https://ulviyyeosmanova.github.io/portfolio-presentation/de/index.html">
 <link rel="alternate" hreflang="en" href="https://ulviyyeosmanova.github.io/portfolio-presentation/index.html">
 <link rel="alternate" hreflang="de" href="https://ulviyyeosmanova.github.io/portfolio-presentation/de/index.html">
+
+<style id="feedback-mobile-reading-fix">
+/* Mobile only - desktop design remains unchanged */
+@media (max-width: 600px) {
+
+  .canva-feedback-grid {
+    grid-template-columns: 1fr !important;
+    gap: 18px;
+  }
+
+  .canva-card[data-feedback].feedback-inline-ready {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .canva-card[data-feedback].feedback-inline-ready
+  .feedback-inline-back {
+    padding: 18px 16px 16px;
+  }
+
+  .canva-card[data-feedback].feedback-inline-ready
+  .feedback-inline-back-scroll {
+    flex: 1 1 auto;
+    height: auto;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+  }
+
+  .canva-card[data-feedback].feedback-inline-ready
+  .feedback-inline-back ol {
+    font-size: 14px;
+    line-height: 1.55;
+    padding-left: 22px;
+  }
+
+  .canva-card[data-feedback].feedback-inline-ready
+  .feedback-inline-back li {
+    margin-bottom: 12px;
+  }
+}
+</style>
+
 </head>
 <body class="home">
 <header class="site-header">
